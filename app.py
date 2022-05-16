@@ -1,7 +1,6 @@
 from flask import Flask,render_template
 
 app = Flask(__name__)
-string = "yes"
 
 @app.route("/")
 def index():
